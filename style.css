@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+body {
+    background-color: rgb(233, 224, 224);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Trebuchet MS';
+    background-image: url(https://i.pinimg.com/originals/5f/24/d9/5f24d9a65bf84f13200bc6f549d56b1a.jpg); 
+    
+header {
+    height: 100px;
+    background-color:rgb(255, 252, 252);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    align-content: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-style: double;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    
+    
+
+}
+
+main {
+    
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px 30px;
+    flex-wrap: wrap;
+    gap: 15px;
+    
+
+}
+
+.card {
+    width: 300px;
+    height: 450px;
+    background-color: rgb(215, 209, 209);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0);
+    margin-bottom: 30px;
+}
+
+.card img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    
+}
+
+.card h2 {
+    margin: 15px 0;
+}
+
+.card p {
+    font-size: 14px;
+}
+.card:hover {
+        transform: translateY(-20px); 
+        box-shadow: 0 25px 30px rgba(0, 0, 0, 0.2); 
+    }
+
+footer {
+    height: 100px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 20px;
+    border-style: double;
+    Font-family:system-ui;
+}
